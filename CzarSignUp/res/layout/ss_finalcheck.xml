@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/ss_textName"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Name"
+            android:textSize="17pt" />
+
+        <TextView
+            android:id="@+id/ss_intName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="FirstNameLastName"
+            android:textSize="17pt" />
+
+        <TextView
+            android:id="@+id/ss_Phone"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/phone_number_bar"
+            android:textSize="17pt" />
+
+        <TextView
+            android:id="@+id/ss_intPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="IntPhoneNumb"
+            android:textSize="17pt" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/ss_Class"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/current_class"
+            android:textSize="17pt" />
+
+        <TextView
+            android:id="@+id/ss_IntClass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Interest Class"
+            android:textSize="17pt" />
+
+        <TextView
+            android:id="@+id/ss_Major"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/major_bar"
+            android:textSize="17pt" />
+
+        <TextView
+            android:id="@+id/ss_intMajor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Interest Major"
+            android:textSize="17pt" />
+
+        <TextView
+            android:id="@+id/ss_Email"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/email_bar"
+            android:textSize="17pt" />
+
+        <TextView
+            android:id="@+id/ss_intEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Interest Email"
+            android:textSize="17pt" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/ss_FOC"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Best Form of Contact"
+            android:textSize="17pt" />
+
+        <TextView
+            android:id="@+id/ss_intFOC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Interest FOC"
+            android:textSize="17pt" />
+    </LinearLayout>
+
+</ScrollView>

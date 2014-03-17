@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CzarSignUp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="welcome_image">Welcome Image</string>
+    <string name="welcome">Welcome!</string>
+    <string name="instruction">Tap the Image or the Sign Up Button to Begin!</string>
+    <string name="sign_up_button">Sign Up </string>
+    <string name="first_name">Enter First Name</string>
+    <string name="first_name_bar">First Name</string>
+    <string name="last_name">Enter Last Name</string>
+    <string name="last_name_bar">Last Name</string>
+    <string name="phone_number_bar">Phone Number</string>
+    <string name="phone_number">Enter Phone Number</string>
+    <string name="freshman_yr">Freshman</string>
+    <string name="sophomore_yr">Sophomore</string>
+    <string name="junior_yr">Junior</string>
+    <string name="senior_yr">Senior</string>
+    <string name="previous_ns">Prev</string>
+    <string name="quit_ns">Quit</string>
+    <string name="next_ns">Next</string>
+    <string name="major_bar">Major</string>
+    <string name="si_major">Enter Your Major</string>
+    <string name="si_email">Enter Your Email</string>
+    <string name="email_bar">Email</string>
+    <string name="permission">Permission Granted</string>
+    <string name="bfoc">Please Select the Best Way to Contact You</string>
+    <string name="spinner_tag">Form of Contact</string>
+    <string name="current_class">Current Class</string>
+    <string name="finish_su">Finish</string>
+    <string name="interest_list_empty">The List is Empty, Get Interests To Sign Up!</string>
+    <string name="pwfe">Enter the Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="interest_title">Current Interests</string>
+    <string name="interest_name">Interests Name</string>
+    <string name="interest_class">Interests Class and Major</string>
+    <string name="interest_phone">Interests Phone Number</string>
+    <string name="interest_email">Interests Email</string>
+    <string name="interest_foc">Interests Preferred Method of Contact</string>
+    <string name="delete_interest">Delete</string>
+
+    <string-array name="formofcs">
+        <item>Email</item>
+        <item>Phone Call</item>
+        <item>Text</item>
+        <item>Do Not Contact Me</item>
+        <item>Smoke Signals</item>
+        <item>Carrier Pigeons</item>
+    </string-array>
+
+</resources>

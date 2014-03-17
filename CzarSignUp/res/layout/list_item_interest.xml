@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_drawable" >
+
+    <TextView
+        android:id="@+id/permission_to_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Permission"
+        android:textSize="12pt" />
+
+    <TextView
+        android:id="@+id/interest_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/permission_to_contact"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="Interest_Name"
+        android:textSize="15pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/interest_class_rank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/interest_name"
+        android:layout_toLeftOf="@id/permission_to_contact"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:text="Year"
+        android:textSize="10pt" />
+
+</RelativeLayout>

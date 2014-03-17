@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/baseline_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:longClickable="true" 
+    android:keepScreenOn="true">
+
+    <ImageButton
+        android:id="@+id/welcome_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/welcome_image"
+        android:src="@drawable/backgroundimg"
+        android:translationY="-20dp" />
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/welcome_image"
+        android:layout_centerInParent="true"
+        android:paddingBottom="75dp"
+        android:text="@string/welcome"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="25pt"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/welcome_instruct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome_image"
+        android:layout_centerInParent="true"
+        android:paddingTop="45dp"
+        android:text="@string/instruction"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="12pt" >
+    </TextView>
+
+    <Button
+        android:id="@+id/welcome_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome_instruct"
+        android:drawableRight="@drawable/arrow_right"
+        android:paddingTop="10dp"
+        android:text="@string/sign_up_button"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16pt"
+        android:translationX="420dp"
+        android:translationY="30dp" />
+
+</RelativeLayout>
